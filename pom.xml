@@ -21,6 +21,13 @@
             <groupId>io.airlift</groupId>
             <artifactId>log</artifactId>
             <version>0.148</version>
+            <scope>runtime</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
